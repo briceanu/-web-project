@@ -65,8 +65,8 @@ li:nth-child(5) a {
 .container-for-header {
   position: relative;
   width: 100vw;
-  height: 80vh;
-  background: rgb(243, 241, 238);
+  height: 120vh;
+  background: rgb(247, 244, 241);
   overflow: auto;
 }
 .container-for-header .description {
@@ -114,4 +114,61 @@ li:nth-child(5) a {
   left: 190;
   border-radius: 10px;
   box-shadow: -3px 7px 10px grey;
+}
+main {
+  width: 100vw;
+  height: 80vh;
+  background: rgb(231, 226, 231);
+}
+
+h4 {
+  font-size: 10rem;
+  margin-left: 20rem;
+  color: palevioletred;
+}
+
+.socializing p {
+  position: relative;
+  font-size: 3rem;
+  margin-top: 6rem;
+  margin-left: 20rem;
+  width: 90rem;
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  font-weight: 500;
+  margin-left: 20rem;
+  background-color: palevioletred;
+  border: 0;
+  border-radius: 100vw;
+  box-shadow: 0 0.125em 0.5em rgba(0, 0, 0 0.15);
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 0.4em;
+  line-height: 1;
+  padding: 0.95em 1.75em 0.85em;
+  position: relative;
+  text-decoration: none;
+  transform: scale(1);
+  transition-property: transform, transform;
+  transition-duration: 0.2s, 0.2s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+  text-transform: uppercase;
+  text-rendering: optimizeSpeed;
+}
+.button::before {
+  box-shadow: 0 0.5em 1.25em black;
+  content: "";
+  box-shadow: 0 0.5em 1.25em black;
+
+  bottom: 0;
+  border-radius: inherit;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
