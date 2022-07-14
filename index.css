@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@100&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@100&family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 62.5%;
+}
+:root {
+  --orange: rgb(219, 89, 14);
+  --blue: rgb(39, 39, 148);
+  --orange-sharp: rgb(212, 141, 8);
+  --lignt-greem: rgb(54, 189, 54);
+  --purple: rgba(158, 18, 158, 0.842);
+  --orange-light: rgba(233, 171, 57, 0.774);
+  --font-s: 1.25rem;
+}
+
+.primary-nav ul {
+  font-weight: 600;
+  padding: 5rem 0;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  list-style: none;
+  gap: 4rem;
+}
+.nav-list li a {
+  font-weight: 900;
+  font-size: 2.7rem;
+  font-family: "Acme", sans-serif;
+  text-decoration-thickness: 0.2rem;
+}
+li:nth-child(1) a {
+  color: var(--lignt-greem);
+  text-decoration-thickness: 0.25rem;
+  text-underline-offset: 0.6rem;
+}
+
+li:nth-child(3) a {
+  color: var(--orange-light);
+}
+
+li:nth-child(5) a {
+  color: var(--blue);
+}
+
+.primary-nav li:nth-child(6) a {
+  color: var(--purple);
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  font-weight: 600;
+}
