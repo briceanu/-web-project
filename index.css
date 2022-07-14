@@ -60,3 +60,58 @@ li:nth-child(5) a {
   color: rgb(2, 2, 2);
   font-weight: 600;
 }
+/* end of nav-list */
+
+.container-for-header {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  background: rgb(243, 241, 238);
+  overflow: auto;
+}
+.container-for-header .description {
+  width: 100rem;
+  background: linear-gradient(to right, rgb(240, 52, 52), rgb(245, 128, 32));
+  border-radius: 17px;
+  margin: auto;
+  margin-top: 10rem;
+  padding-top: 0.4rem;
+}
+
+.paragraph {
+  font-size: 5rem;
+  padding-left: 30rem;
+  color: azure;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.second-description {
+  width: 100rem;
+  height: 30rem;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+.second-description .second-paragraph {
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-left: 30rem;
+  width: 900px;
+  height: 200px;
+  font-family: "Roboto", sans-serif;
+}
+.second-paragraph.second {
+  font-size: 3rem;
+  padding-left: 30rem;
+  margin-top: 0.3rem;
+  font-family: "Roboto", sans-serif;
+}
+.profile {
+  position: absolute;
+  width: 27rem;
+  height: 40rem;
+  top: 130;
+  left: 190;
+  border-radius: 10px;
+  box-shadow: -3px 7px 10px grey;
+}
